@@ -12,7 +12,7 @@ genai.configure(api_key=API_KEY)
  
 st.set_page_config(page_title="📅 Event Chatbot")
 
-st.header("✨Gemini Chat BOT")
+st.header("✨Event Details Chat BOT")
 
 # Initialize session state for chat history if it doesn't exist
 if 'messages' not in st.session_state:
