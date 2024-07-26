@@ -10,9 +10,9 @@ from IPython.display import Markdown
 API_KEY = "AIzaSyD4fcsx2GHbl4WNWgPkoJLof7uxmDf66MY"
 genai.configure(api_key=API_KEY)
  
-st.set_page_config(page_title="Q&A Demo")
+st.set_page_config(page_title="📅 Event Chatbot")
 
-st.header("Gemini Chat BOT")
+st.header("✨Gemini Chat BOT")
 
 # Initialize session state for chat history if it doesn't exist
 if 'messages' not in st.session_state:
